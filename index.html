@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChocoChill - Es Coklat Premium dengan Coklat Asli</title>
+    <meta name="description" content="ChocoChill menyajikan es coklat premium dengan bahan coklat asli. Nikmati sensasi dingin dan manisnya coklat dalam 4 varian rasa yang menggugah selera.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-lato bg-[#FAFAFA]">
+    <!-- Navbar -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-2xl font-poppins font-bold text-[#4E342E]">ChocoChill</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#menu" class="nav-link">Menu</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <button class="md:hidden" id="menuToggle">
+                    <i class="fas fa-bars text-2xl text-[#4E342E]"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden" id="mobileMenu">
+            <div class="px-4 py-4 bg-white/95 backdrop-blur-sm">
+                <a href="#home" class="mobile-nav-link">Home</a>
+                <a href="#menu" class="mobile-nav-link">Menu</a>
+                <a href="#about" class="mobile-nav-link">About</a>
+                <a href="#contact" class="mobile-nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-16 md:pt-32 md:pb-24">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2" data-aos="fade-right">
+                    <h1 class="text-4xl md:text-5xl font-poppins font-bold text-[#4E342E] leading-tight mb-6">
+                        Nikmatin Sensasi Dingin & Manisnya Coklat Asli!
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-8">
+                        Rasakan kelezatan es coklat premium yang dibuat dengan coklat asli pilihan dan bahan berkualitas tinggi.
+                    </p>
+                    <a href="#" class="btn-primary">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                <div class="md:w-1/2 mt-12 md:mt-0" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1541658016709-82535e94bc69" alt="ChocoChill Es Coklat Premium" class="rounded-2xl shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="menu" class="py-16 bg-[#D7CCC8]/20">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title" data-aos="fade-up">Menu Favorit Kami</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+                <!-- Original -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574" alt="Original ChocoChill" class="product-image">
+                    <h3 class="product-title">Original</h3>
+                    <p class="product-description">Es coklat klasik dengan coklat premium pilihan</p>
+                    <p class="product-price">Rp 25.000</p>
+                </div>
+                <!-- Hazelnut -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699" alt="Hazelnut ChocoChill" class="product-image">
+                    <h3 class="product-title">Hazelnut</h3>
+                    <p class="product-description">Perpaduan coklat dan kacang hazel premium</p>
+                    <p class="product-price">Rp 28.000</p>
+                </div>
+                <!-- Oreo -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb" alt="Oreo ChocoChill" class="product-image">
+                    <h3 class="product-title">Oreo</h3>
+                    <p class="product-description">Es coklat dengan taburan oreo yang renyah</p>
+                    <p class="product-price">Rp 27.000</p>
+                </div>
+                <!-- Mint -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="400">
+                    <img src="https://images.unsplash.com/photo-1606312619070-d48b4c652a52" alt="Mint ChocoChill" class="product-image">
+                    <h3 class="product-title">Mint</h3>
+                    <p class="product-description">Kesegaran mint berpadu dengan coklat premium</p>
+                    <p class="product-price">Rp 28.000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title" data-aos="fade-up">Mengapa Memilih ChocoChill?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-certificate text-4xl text-[#4E342E] mb-4"></i>
+                    <h3 class="feature-title">100% Coklat Asli</h3>
+                    <p class="feature-description">Menggunakan coklat premium berkualitas tinggi</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-leaf text-4xl text-[#4E342E] mb-4"></i>
+                    <h3 class="feature-title">Tanpa Pengawet</h3>
+                    <p class="feature-description">Dibuat fresh setiap hari tanpa bahan pengawet</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-ice-cream text-4xl text-[#4E342E] mb-4"></i>
+                    <h3 class="feature-title">Disajikan Segar</h3>
+                    <p class="feature-description">Selalu disajikan dalam kondisi segar dan dingin</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-star text-4xl text-[#4E342E] mb-4"></i>
+                    <h3 class="feature-title">Rasa Premium</h3>
+                    <p class="feature-description">Kualitas rasa yang konsisten dan premium</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-[#D7CCC8]/20">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title" data-aos="fade-up">Apa Kata Mereka?</h2>
+            <div class="mt-12 relative" data-aos="fade-up">
+                <div class="testimonial-slider">
+                    <div class="testimonial-slide">
+                        <p class="testimonial-text">"Es coklat terenak yang pernah saya coba! Rasa coklatnya berasa banget dan tidak terlalu manis."</p>
+                        <p class="testimonial-author">- Sarah Amanda</p>
+                    </div>
+                    <div class="testimonial-slide hidden">
+                        <p class="testimonial-text">"Suka banget sama varian Mint-nya. Seger dan bikin ketagihan!"</p>
+                        <p class="testimonial-author">- Budi Santoso</p>
+                    </div>
+                    <div class="testimonial-slide hidden">
+                        <p class="testimonial-text">"Packaging-nya cantik, rasanya enak, pelayanannya ramah. Recommended!"</p>
+                        <p class="testimonial-author">- Linda Wijaya</p>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-6 space-x-2">
+                    <button class="testimonial-dot active"></button>
+                    <button class="testimonial-dot"></button>
+                    <button class="testimonial-dot"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2" data-aos="fade-right">
+                    <h2 class="section-title text-left">Tentang ChocoChill</h2>
+                    <p class="mt-6 text-gray-600 leading-relaxed">
+                        ChocoChill lahir dari passion kami terhadap coklat berkualitas. Sejak 2020, kami berkomitmen menghadirkan es coklat premium dengan menggunakan bahan-bahan terbaik dan resep yang telah disempurnakan.
+                    </p>
+                    <p class="mt-4 text-gray-600 leading-relaxed">
+                        Setiap gelas ChocoChill dibuat dengan cinta dan dedikasi untuk memberikan pengalaman menikmati es coklat yang tak terlupakan.
+                    </p>
+                </div>
+                <div class="md:w-1/2 mt-8 md:mt-0" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1495147466023-ac2c7f7805be" alt="About ChocoChill" class="rounded-2xl shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="py-16 bg-[#4E342E] text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-poppins font-bold mb-6" data-aos="fade-up">
+                Pesan ChocoChill Sekarang!
+            </h2>
+            <p class="text-lg mb-8" data-aos="fade-up" data-aos-delay="100">
+                Nikmati sensasi dingin dan manisnya coklat asli dalam setiap tegukan
+            </p>
+            <a href="https://wa.me/6281234567890" class="btn-secondary" data-aos="fade-up" data-aos-delay="200">
+                <i class="fab fa-whatsapp mr-2"></i>Pesan via WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#D7CCC8] py-16">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row justify-center items-start gap-12 md:gap-24 text-center md:text-left">
+      <!-- Alamat -->
+      <div class="footer-section">
+        <h3 class="footer-title">ChocoChill</h3>
+        <p class="mt-4 text-gray-700">
+          Jl. Cokelat No. 123<br>
+          Jakarta Selatan, 12345<br>
+          Indonesia
+        </p>
+      </div>
+
+      <!-- Jam Buka -->
+      <div class="footer-section">
+        <h3 class="footer-title">Jam Buka</h3>
+        <p class="mt-4 text-gray-700">
+          Senin - Minggu<br>
+          10:00 - 22:00 WIB
+        </p>
+      </div>
+
+      <!-- Sosial Media -->
+      <div class="footer-section">
+        <h3 class="footer-title">Ikuti Kami</h3>
+        <div class="flex justify-center md:justify-start space-x-6 mt-4">
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-12 pt-8 border-t border-gray-400 text-center text-gray-700">
+      <p>&copy; 2025 ChocoChill. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/6281234567890" class="fixed bottom-6 right-6 bg-green-500 text-white rounded-full p-4 shadow-lg hover:bg-green-600 transition-colors">
+        <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
