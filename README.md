@@ -39,13 +39,13 @@ Website ini didesain untuk menghadirkan nuansa segar, elegan, dan modern, mengga
 ---
 
 ## 📁 Struktur Folder
-**📦 es-coklat**
-**├── index.html**
-**├── style.css**
-**├── /src**
-**│ ├── /img → Gambar produk & banner**
-**│ └── /js → File JavaScript (opsional)**
-**└── README.md**
+```**📦 es-coklat**
+```**├── index.html**
+```**├── style.css**
+```**├── /src**
+```**│ ├── /img → Gambar produk & banner**
+```**│ └── /js → File JavaScript (opsional)**
+```**└── README.md**
 
 ---
 
