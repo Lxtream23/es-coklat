@@ -61,7 +61,8 @@ Website ini didesain untuk menghadirkan nuansa segar, elegan, dan modern, mengga
 
 ---
 
-```🔄 Deployment di Vercel
+🔄 Deployment di Vercel
+```
 Proyek ini dideploy menggunakan Vercel.
 Setiap kali ada perubahan di branch main, website otomatis diperbarui.
 ```
@@ -79,7 +80,8 @@ Setiap kali ada perubahan di branch main, website otomatis diperbarui.
 
 ---
 
-```👨‍💻 Developer
+👨‍💻 Developer
+```
 Lukman Hakim
 🎓 Universitas Yudharta Pasuruan
 🔗 GitHub: @Lxtream23
@@ -87,7 +89,8 @@ Lukman Hakim
 ```
 ---
 
-```🪪 Lisensi
+🪪 Lisensi
+```
 Project ini dibuat untuk keperluan pembelajaran & portofolio pribadi.
 Tidak untuk diperjualbelikan tanpa izin pengembang.
 ```
