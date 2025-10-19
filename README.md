@@ -45,7 +45,7 @@ Website ini didesain untuk menghadirkan nuansa segar, elegan, dan modern, mengga
 **├── /src**
 **│ ├── /img → Gambar produk & banner**
 **│ └── /js → File JavaScript (opsional)**
-**└── README.md****
+**└── README.md**
 
 ---
 
