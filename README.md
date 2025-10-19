@@ -39,14 +39,14 @@ Website ini didesain untuk menghadirkan nuansa segar, elegan, dan modern, mengga
 ---
 
 ## 📁 Struktur Folder
-```**📦 es-coklat**
-```**├── index.html**
-```**├── style.css**
-```**├── /src**
-```**│ ├── /img → Gambar produk & banner**
-```**│ └── /js → File JavaScript (opsional)**
-```**└── README.md**
-
+```📦 es-coklat
+├── index.html
+├── style.css
+├── /src
+│ ├── /img → Gambar produk & banner
+│ └── /js → File JavaScript (opsional)
+└── README.md
+```
 ---
 
 ## 🚀 Cara Menjalankan Proyek
@@ -61,10 +61,10 @@ Website ini didesain untuk menghadirkan nuansa segar, elegan, dan modern, mengga
 
 ---
 
-🔄 Deployment di Vercel
+```🔄 Deployment di Vercel
 Proyek ini dideploy menggunakan Vercel.
 Setiap kali ada perubahan di branch main, website otomatis diperbarui.
-
+```
 📍 https://es-chocochill.vercel.app/
 
 ---
@@ -79,18 +79,18 @@ Setiap kali ada perubahan di branch main, website otomatis diperbarui.
 
 ---
 
-👨‍💻 Developer
+```👨‍💻 Developer
 Lukman Hakim
 🎓 Universitas Yudharta Pasuruan
 🔗 GitHub: @Lxtream23
 📧 Email: lukmanhakim23072002@gmail.com
-
+```
 ---
 
-🪪 Lisensi
+```🪪 Lisensi
 Project ini dibuat untuk keperluan pembelajaran & portofolio pribadi.
 Tidak untuk diperjualbelikan tanpa izin pengembang.
-
+```
 ---
 
 <div align="center"> <sub>💬 "ChocoChill – Rasa premium dalam setiap tegukan." ☕</sub> </div> ```
